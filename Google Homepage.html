@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage</title>
+<link rel="stylesheet" href="./Google Homepage_files/google.css"></head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-left">
+            <ul>
+                <li><a class="About" href="http://127.0.0.1:5500/index.html#">About</a></li>
+                <li><a class="Store" href="http://127.0.0.1:5500/index.html#">Store</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a class="Gmail" href="http://127.0.0.1:5500/index.html#">Gmail</a></li>
+                <li><a class="Images" href="http://127.0.0.1:5500/index.html#">Images</a></li>
+                <li><img class="Apps" src="./Google Homepage_files/Apps.png"></li>
+                <li><button class="Sign_in">Sign in</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="logo_container">
+        <img src="./Google Homepage_files/google_logo.png" alt="google" class="google_logo">
+    </div>
+        <div class="search_form">
+            <div class="search_bar">
+                <img src="./Google Homepage_files/search.png" alt="magnifying glass">
+                <input type="text" name="search">
+                <img src="./Google Homepage_files/mic.png" alt="mic">
+            </div>
+        </div>
+        
+        <div class="button_container">
+            <button class="search_button">Google Search</button>
+            <button class="Lucky_button">I'm Feeling Lucky</button>
+        </div>
+    
+<footer class="bottom_nav">
+    <div class="bottom_nav_left">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html#">Advertising</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Business</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">How Services Work</a></li>
+        </ul>
+    </div>
+    <div class="bottom_nav_right">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html#">Privacy</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Terms</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">Settings</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

@@ -1,0 +1,220 @@
+.nav-container {
+display: inline-flex;
+flex-direction: row;
+justify-content:space-between; 
+width: 100%;
+position: absolute;
+top: 0px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left ul li {
+    display: inline;
+    
+}
+
+.About {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    margin-right: 15px;
+}
+
+.Store {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+}
+.nav-right {
+    display: flex;
+}
+
+.nav-right ul li {
+    display: inline;
+}
+
+.Gmail {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    margin-right: 15px;
+}
+
+.Images {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    margin-right:15px;
+}
+
+.Apps {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.Sign_in {
+    background-color:#4285f4;
+    color: white;
+    width: 60px;
+    height: 28px;
+    align-items: center;
+    margin-right: 30px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+
+}
+.logo_container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    justify-content: center;
+    padding-top: 190px;
+}
+
+.search_form {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    justify-content: center;
+    width:460px;
+    height:39px;
+
+}
+
+.search_bar {
+    border: 1px solid rgb(136, 135, 135);
+    border-radius: 28px;
+    background-color: #fff;
+    width: 450px;
+    height: 34px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.search_bar > input {
+    border: none;
+    outline: none;
+    width: 350px;
+}
+
+.button_container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.search_button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.Lucky_button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.bottom_nav {
+    position: absolute;
+    bottom: 0px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:#f2f2f2;
+}
+
+.bottom_nav_left {
+    display: flex;
+
+}
+
+.bottom_nav_left Ul > li {
+    display: inline;
+}
+
+.bottom_nav_right {
+    display:flex;
+}
+
+.bottom_nav_right ul > li {
+    display: inline;
+
+}
+
+.advertising {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.business {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+.hsw {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+}
+.privacy {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+.terms {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 10px;
+}
+
+.settings {
+    margin-right: 30px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5f6368;
+}
